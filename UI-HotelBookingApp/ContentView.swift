@@ -7,9 +7,36 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @EnvironmentObject var fullScreen: FullScreenController
+    
+    init() {
+        let standardAppearance = UINavigationBarAppearance()
+        standardAppearance.backgroundColor = UIColor.white
+        standardAppearance.shadowColor = .clear
+        
+        let compactAppearance = UINavigationBarAppearance()
+        compactAppearance.backgroundColor = UIColor.white
+        compactAppearance.shadowColor = .clear
+        
+        let scrollEdgeAppearance = UINavigationBarAppearance()
+        scrollEdgeAppearance.backgroundColor = UIColor.white
+        scrollEdgeAppearance.shadowColor = .clear
+        
+        UINavigationBar.appearance().standardAppearance = standardAppearance
+        UINavigationBar.appearance().compactAppearance = compactAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = scrollEdgeAppearance
+    }
+    @State var data = Data(startDate: Date().addDay(7), endDate: Date().addDay(14))
+    
     var body: some View {
-        Text("Hello, world!").padding()
+        FullScreenView(content: {
+            NavigationView {
+                MainView(data: data)
+                    .environmentObject(fullScreen)
+            }
+        }).environmentObject(fullScreen)
     }
 }
 

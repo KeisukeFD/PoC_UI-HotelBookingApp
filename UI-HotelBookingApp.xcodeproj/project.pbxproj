@@ -11,6 +11,18 @@
 		A772DB1A24C76A1E008D7C62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB1924C76A1E008D7C62 /* ContentView.swift */; };
 		A772DB1C24C76A1F008D7C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A772DB1B24C76A1F008D7C62 /* Assets.xcassets */; };
 		A772DB1F24C76A1F008D7C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A772DB1E24C76A1F008D7C62 /* Preview Assets.xcassets */; };
+		A772DB2724C76A6C008D7C62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB2624C76A6C008D7C62 /* MainView.swift */; };
+		A772DB2A24C77033008D7C62 /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB2924C77033008D7C62 /* SearchFieldView.swift */; };
+		A772DB2C24C77CF6008D7C62 /* HotelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB2B24C77CF6008D7C62 /* HotelCard.swift */; };
+		A772DB2E24C7862A008D7C62 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB2D24C7862A008D7C62 /* StarsView.swift */; };
+		A772DB3124C79014008D7C62 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB3024C79014008D7C62 /* Hotels.swift */; };
+		A772DB3324C79736008D7C62 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB3224C79736008D7C62 /* CalendarView.swift */; };
+		A772DB3524C79913008D7C62 /* CircleImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772DB3424C79913008D7C62 /* CircleImageButton.swift */; };
+		A7762D6A24C8BBDC003A6498 /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762D6924C8BBDC003A6498 /* FullScreen.swift */; };
+		A7762D6C24C8C907003A6498 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762D6B24C8C907003A6498 /* RoundedButton.swift */; };
+		A7762D6F24C8CE01003A6498 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762D6E24C8CE01003A6498 /* DateExtension.swift */; };
+		A7762D7124C8CE2C003A6498 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762D7024C8CE2C003A6498 /* Calendar.swift */; };
+		A7762D7324C8D76F003A6498 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762D7224C8D76F003A6498 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,19 @@
 		A772DB1B24C76A1F008D7C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A772DB1E24C76A1F008D7C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A772DB2024C76A1F008D7C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A772DB2624C76A6C008D7C62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A772DB2924C77033008D7C62 /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
+		A772DB2B24C77CF6008D7C62 /* HotelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCard.swift; sourceTree = "<group>"; };
+		A772DB2D24C7862A008D7C62 /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		A772DB3024C79014008D7C62 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		A772DB3224C79736008D7C62 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A772DB3424C79913008D7C62 /* CircleImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageButton.swift; sourceTree = "<group>"; };
+		A7762D6924C8BBDC003A6498 /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
+		A7762D6B24C8C907003A6498 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		A7762D6E24C8CE01003A6498 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A7762D7024C8CE2C003A6498 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		A7762D7224C8D76F003A6498 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A7762D7524C90CB5003A6498 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +61,7 @@
 		A772DB0B24C76A1E008D7C62 = {
 			isa = PBXGroup;
 			children = (
+				A7762D7524C90CB5003A6498 /* README.md */,
 				A772DB1624C76A1E008D7C62 /* UI-HotelBookingApp */,
 				A772DB1524C76A1E008D7C62 /* Products */,
 			);
@@ -52,8 +78,12 @@
 		A772DB1624C76A1E008D7C62 /* UI-HotelBookingApp */ = {
 			isa = PBXGroup;
 			children = (
+				A7762D6D24C8CDF0003A6498 /* Extensions */,
+				A772DB2F24C7900B008D7C62 /* Models */,
+				A772DB2824C77027008D7C62 /* Components */,
 				A772DB1724C76A1E008D7C62 /* UI_HotelBookingAppApp.swift */,
 				A772DB1924C76A1E008D7C62 /* ContentView.swift */,
+				A772DB2624C76A6C008D7C62 /* MainView.swift */,
 				A772DB1B24C76A1F008D7C62 /* Assets.xcassets */,
 				A772DB2024C76A1F008D7C62 /* Info.plist */,
 				A772DB1D24C76A1F008D7C62 /* Preview Content */,
@@ -67,6 +97,38 @@
 				A772DB1E24C76A1F008D7C62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A772DB2824C77027008D7C62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A772DB2924C77033008D7C62 /* SearchFieldView.swift */,
+				A772DB2B24C77CF6008D7C62 /* HotelCard.swift */,
+				A772DB2D24C7862A008D7C62 /* StarsView.swift */,
+				A772DB3224C79736008D7C62 /* CalendarView.swift */,
+				A7762D6B24C8C907003A6498 /* RoundedButton.swift */,
+				A772DB3424C79913008D7C62 /* CircleImageButton.swift */,
+				A7762D6924C8BBDC003A6498 /* FullScreen.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		A772DB2F24C7900B008D7C62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A772DB3024C79014008D7C62 /* Hotels.swift */,
+				A7762D7024C8CE2C003A6498 /* Calendar.swift */,
+				A7762D7224C8D76F003A6498 /* Data.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A7762D6D24C8CDF0003A6498 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7762D6E24C8CE01003A6498 /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7762D6A24C8BBDC003A6498 /* FullScreen.swift in Sources */,
+				A7762D6F24C8CE01003A6498 /* DateExtension.swift in Sources */,
 				A772DB1A24C76A1E008D7C62 /* ContentView.swift in Sources */,
+				A772DB3524C79913008D7C62 /* CircleImageButton.swift in Sources */,
+				A772DB2C24C77CF6008D7C62 /* HotelCard.swift in Sources */,
+				A772DB3324C79736008D7C62 /* CalendarView.swift in Sources */,
+				A772DB3124C79014008D7C62 /* Hotels.swift in Sources */,
+				A7762D7324C8D76F003A6498 /* Data.swift in Sources */,
+				A7762D6C24C8C907003A6498 /* RoundedButton.swift in Sources */,
+				A772DB2A24C77033008D7C62 /* SearchFieldView.swift in Sources */,
+				A7762D7124C8CE2C003A6498 /* Calendar.swift in Sources */,
+				A772DB2724C76A6C008D7C62 /* MainView.swift in Sources */,
+				A772DB2E24C7862A008D7C62 /* StarsView.swift in Sources */,
 				A772DB1824C76A1E008D7C62 /* UI_HotelBookingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

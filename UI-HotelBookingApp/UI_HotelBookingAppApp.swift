@@ -12,6 +12,7 @@ struct UI_HotelBookingAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(FullScreenController())
         }
     }
 }
